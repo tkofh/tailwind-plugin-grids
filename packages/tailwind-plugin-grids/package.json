@@ -36,6 +36,7 @@
     "url": "https://github.com/tkofh/tailwind-plugin-grids/issues"
   },
   "devDependencies": {
+    "@types/node": "^18.11.12",
     "@vitest/coverage-c8": "^0.25.6",
     "@vitest/ui": "^0.25.6",
     "c8": "^7.12.0",
@@ -45,5 +46,6 @@
     "tsup": "^6.5.0",
     "typescript": "^4.9.4",
     "vitest": "^0.25.6"
-  }
+  },
+  "gitHead": "1352c892a36fb8e34d4d0857fa5095fc29a7d3b7"
 }
