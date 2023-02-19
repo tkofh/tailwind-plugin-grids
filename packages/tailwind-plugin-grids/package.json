@@ -8,12 +8,12 @@
   "sideEffects": false,
   "type": "module",
   "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
+  "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "require": "./dist/index.cjs",
-      "import": "./dist/index.js",
+      "import": "./dist/index.mjs",
       "types": "./dist/index.d.ts"
     }
   },
@@ -28,7 +28,7 @@
     "url": "git+https://github.com/tkofh/tailwind-plugin-grids.git"
   },
   "scripts": {
-    "build": "tsup",
+    "build": "unbuild",
     "test": "vitest run",
     "prepublish": "yarn test && yarn build"
   },
@@ -36,16 +36,16 @@
     "url": "https://github.com/tkofh/tailwind-plugin-grids/issues"
   },
   "devDependencies": {
-    "@types/node": "^18.11.12",
-    "@vitest/coverage-c8": "^0.25.6",
-    "@vitest/ui": "^0.25.6",
-    "c8": "^7.12.0",
+    "@types/node": "^18.14.0",
+    "@vitest/coverage-c8": "^0.28.5",
+    "@vitest/ui": "^0.28.5",
+    "c8": "^7.13.0",
     "outdent": "^0.8.0",
-    "postcss": "^8.4.19",
-    "tailwindcss": "^3.2.4",
-    "tsup": "^6.5.0",
-    "typescript": "^4.9.4",
-    "vitest": "^0.25.6"
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "typescript": "^4.9.5",
+    "unbuild": "^1.1.2",
+    "vitest": "^0.28.5"
   },
   "gitHead": "1352c892a36fb8e34d4d0857fa5095fc29a7d3b7"
 }

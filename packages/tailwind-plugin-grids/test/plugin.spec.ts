@@ -31,7 +31,7 @@ describe('tailwind-plugin-grids', () => {
     expect(
       run('<div class="grid-test"></div>', {
         theme: {
-          grids: {
+          grid: {
             test: '1fr main / 1fr',
           },
         },

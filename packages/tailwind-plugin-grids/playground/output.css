@@ -1,0 +1,15 @@
+.grid {
+  display: grid
+}
+
+.grid-auto-fluid {
+  grid: "auto fluid" 1fr / auto minmax(0, 1fr)
+}
+
+.grid-area-auto {
+  grid-area: auto
+}
+
+.grid-area-fluid {
+  grid-area: fluid
+}
